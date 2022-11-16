@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/5977/5977578.png" type="image/x-icon">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Group 4 Burger's King</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+   <style>
+     #cont{
+        background: rgb(43, 2, 0);
+      }
+
+      li:hover {
+        display: inline-block;
+        position: relative;
+        text-decoration: underline;
+      }
+
+      #id{
+        width: 25vw;
+
+      }
+      #hov:hover{
+        cursor: pointer;
+      }
+      #pol:hover{
+        cursor: pointer;
+        text-decoration: underline;
+      }
+    @media screen and (max-width: 1230px) {
+      #responsive{
+        display: none;
+      }
+    }
+    @media screen and (min-width: 1230px) {
+      .mobile{
+        display: none;
+      }
+    }
+   
+   </style>
+
+  </head>
+  <body style="background: rgb(245, 235, 220); height: 1500px;">
+    <!-- Dominique Simbillo Nav bar
+    This is default max width 1280px only and lower than that the display will be changes
+    -->
+    <div id="responsive">
+      <div class="container-fluid d-flex justify-content-between fixed-top" style="background: rgb(245, 235, 220);">
+        <div class="m-3">
+          <a class="text-decoration-none" href="#"><i class="fa-solid fa-bars fs-5 d-inline pe-2" style="color: rgb(80, 35, 20);"></i></a>
+          <a class="text-decoration-none" href="#"><h5 class="d-inline pe-2" style="color: rgb(80, 35, 20);">Menu</h5></a>
+          <a class="text-decoration-none" href="#"><h5 class="d-inline pe-2" style="color: rgb(80, 35, 20)">Offers</h5></a>
+          <a class="text-decoration-none" href="#"><h5 class="d-inline pe-2" style="color: rgb(80, 35, 20)">Restaurant</h5></a>
+          <a class="text-decoration-none" href="#"><h5 class="d-inline pe-2" style="color: rgb(80, 35, 20)">Careers</h5></a>
+          <a class="text-decoration-none" href="#"><h5 class="d-inline pe-2" style="color: rgb(80, 35, 20)">Rewards</h5></a>
+          <a class="text-decoration-none" href="#"><h5 class="d-inline pe-2" style="color: rgb(80, 35, 20)">More</h5></a>
+        </div>
+        <div  class="m-3">
+          <a href="#"><i class="fa-solid fa-burger fs-1 ps-3 text-decoration-none pb-2" style="color: rgb(80, 35, 20);"></i></a> 
+        </div>
+        <div  class="m-3">
+          <a class="text-decoration-none" href="#"><i class="fa-sharp fa-solid fa-location-dot d-inline pe-2" style="color: rgb(80, 35, 20);"></i></a>
+          <a class="text-decoration-none" href="#"> <h5 class="d-inline pe-2"  style="color: rgb(80, 35, 20);">For item availability</h5></a>
+            <a href="#" style="color: rgb(80, 35, 20);"><p class="fs2 d-inline pe-2" style="color: rgb(80, 35, 20);">Choose your location</p></a>
+            <button class="rounded-pill me-2" style="background: rgb(214, 35, 0); color: white;">Sign up</button>
+            <button class="rounded-pill" style="background: rgb(80, 35, 20); color: white;"><i class="fa-solid fa-bag-shopping"></i> $0.00</button>
+        </div>
+         </div>
+  </div>
+     <!-- Dominique Simbillo Nav bar
+      This is 1280px width resolution
+    -->
+    <!--
+      This is starting Mobile responsiveness
+    -->
+    <div class="mobile">
+      
+        <nav class="navbar navbar-expand-xxl d-flex justify-content-between fixed-top" style="background: rgb(245, 235, 220);">
+          <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Menu</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Offers</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Restaurant</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Careers</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Rewards</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">More</a>
+                </li>
+              </ul>
+             
+            </div>
+            <div>
+              <a href="#"><i class="fa-solid fa-burger fs-1 ps-3 text-decoration-none pb-2" style="color: rgb(80, 35, 20);"></i></a> 
+           </div>
+           <div>
+            <button class="rounded-pill me-2" style="background: rgb(214, 35, 0); color: white;">Sign up</button>
+          </div>
+          </div>
+          
+        
+        </nav>
+    </div>
+
+      <!--This is the end of Mobile responsiveness-->
+
+      <!-- section 1 area -->
+   <div class="container mt-5 pt-5" style=" font-family: 'Poppins', sans-serif;
+   font-family: 'Rubik', sans-serif;">
+    <div class="row pt-5">
+        <div class="col-lg-6 col-md-6 mb-3">
+            <div class="card w-100">
+                <img class="card-img-top w-100" src="https://cdn.sanity.io/images/czqk28jt/prod_bk_us/30db8aac1cc78453b938cb18e2a68e16e08c53fc-1000x500.jpg?w=750&q=40&fit=max&auto=format" alt="Card image cap">
+                <div class="card-body bg-light">
+                  <h5 class="card-title fw-bold" style="color: rgb(80, 35, 20);">Get rewarded like Royalty</h5>
+                  <p class="card-text" style="color: rgb(80, 35, 20);">Join Royal Perks to earn Crowns, redeem for BK® food and upsize a side or drink for free daily. See Terms.</p>
+                  <div class="text-end">
+                    <a href="#" class="btn btn-outline-danger"><strong>Sign Up to Redeem</strong></a>
+                  </div>
+                </div>
+              </div>
+        </div>
+        <div class="col-lg-6 col-md-6">
+            <div class="card w-100">
+                <img class="card-img-top w-100" src="https://cdn.sanity.io/images/czqk28jt/prod_bk_us/99b3ffc140339c0966fd59a532ae279b6f1bab58-2000x1000.jpg?w=750&q=40&fit=max&auto=format" alt="Card image cap">
+                <div class="card-body bg-light">
+                  <h5 class="card-title fw-bold" style="color: rgb(80, 35, 20);">Free* Whopper, Croissan’wich, or Original Chicken Sandwich</h5>
+                  <p class="card-text" style="color: rgb(80, 35, 20);">Only on the BK® App and bk.com. Available on delivery.*Min $3+ Purch. req’d. See Terms.</p>
+                  <div class="text-end">
+                    <a href="#" class="btn btn-outline-danger"><strong>Sign Up to Redeem</strong></a>
+                  </div>
+                </div>
+              </div>
+        </div>
+        <div class="col-lg-6 col-md-6">
+            <div class="card w-100">
+                <img class="card-img-top w-100" src="https://cdn.sanity.io/images/czqk28jt/prod_bk_us/008b142800c2523b7733106dc64efab4765d4564-2000x1000.jpg?w=750&q=40&fit=max&auto=format" alt="Card image cap">
+                <div class="card-body bg-light">
+                  <h5 class="card-title fw-bold" style="color: rgb(80, 35, 20);">Join the team!</h5>
+                  <p class="card-text" style="color: rgb(80, 35, 20);">At BK®, you can find work-life balance, flexibility and career growth, because you deserve to live life your way.</p>
+                  <div class="text-end">
+                    <a href="#" class="btn btn-outline-danger"><strong>Apply Today</strong></a>
+                  </div>
+                </div>
+              </div>
+        </div>
+            <div class="col-lg-6 col-md-6" style="padding-bottom:15rem;">
+                <div class="card w-100">
+                    <img class="card-img-top w-100" src="https://cdn.sanity.io/images/czqk28jt/prod_bk_us/62814d3bba989d333e50c4efdf57f7e4c575e0ec-2000x1000.jpg?w=750&q=40&fit=max&auto=format" alt="Card image cap">
+                    <div class="card-body bg-light">
+                    <h5 class="card-title fw-bold" style="color: rgb(80, 35, 20);">Upsize like royalty!</h5>
+                    <p class="card-text" style="color: rgb(80, 35, 20);">Join Royal Perks to upsize any side or drink for free once a day.it’s a career opportunity! Hiring decisions. See Terms.</p>
+                    <div class="text-end">
+                      <a href="#" class="btn btn-outline-danger"><strong>Join Now</strong></a>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end of section 1 -->
+
+    <!-- section 2  -->
+    <div class="container-fluid" style="background-color:rgb(239, 225, 204);">
+      <div class="row">
+        <div class="col-lg-7 col-sm-5 d-flex justify-content-end">
+          <img src="https://cdn.sanity.io/images/czqk28jt/prod_bk_us/57382e9feb53d08237fa988a570efdff1602d6ff-912x1267.png?w=750&q=40&fit=max&auto=format" alt="" style="width:25rem;margin-top:-100px;">
+        </div>
+        <div class="col mt-5">
+          
+          <p class="h1" style="font-family: 'Alfa Slab One', cursive;
+          font-family: 'Poppins', sans-serif;
+          font-family: 'Rubik', sans-serif;"><strong>Save $$$<br>
+            With offers<br> on demand</strong></p>
+            <div class="col w-100">
+              <a class="text-decoration-none" href="https://apps.apple.com/us/app/burger-king-app/id638323895?_branch_match_id=637034673462646357">  <button class="btn btn-dark me-3">
+                Download on the<br>
+                <i class="fa-brands fa-apple"></i>
+                App Store
+              </button>
+            </a>
+             <a class="text-decoration-none" href="https://play.google.com/store/apps/details?id=com.emn8.mobilem8.nativeapp.bk&hl=en_US&_branch_match_id=637034673462646357"><button class="btn btn-dark">
+                Get it On<br>
+                <i class="fa-brands fa-google-play"></i>
+                Google Play
+              </button>
+            </a> 
+            </div>
+            <p class="text-muted mt-4 w-75">Apple and the Apple logo are trademarks of Apple Inc., registered in the U.S. and other countries. App Store is a service mark of Apple Inc. Google Play is a trademark of Google Inc. Terms apply.</p>
+        </div>
+      </div>
+    </div>
+    <!-- end of section 2 -->
+
+    
+      <!-- start of footer shirone fortuno-->
+   
+
+
+
+      <div class="container-fluid" id="cont">
+        <footer class="py-5 ps-5 pe-5" id="foot">
+         <div class="row">
+           <div class="col-6 col-md-3 mb-4">
+             <h4 style="color: rgb(245, 235, 220)">BKC INFO</h4>
+             <ul class="nav flex-column">
+               <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted" id="haha">About BK</a></li>
+               <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted" id="haha">Trademarks Notice</a></li>
+               <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted" id="haha">Food Quality</a></li>
+               <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted" id="haha">News & PressLink opens in new tab</a></li>
+               <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted" id="haha">Franchising</a></li>
+               <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted" id="haha">International</a></li>
+               <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted" id="haha">Menu</a></li>
+             </ul>
+           </div>
+        
+           <div class="col-6 col-md-3 mb-1">
+             <h4 style="color: rgb(245, 235, 220)">MY BK</h4>
+             <ul class="nav flex-column">
+               <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">BK AppLink opens in new tab</a></li>
+               <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Gift Cards / Crown CardsLink opens in new tab</a></li>
+               <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Reload CardLink opens in new tab</a></li>
+               <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Check Card Balance</a></li>
+             </ul>
+           </div>
+        
+           <div class="col-6 col-md-3   mb-3">
+             <h5 style="color: rgb(245, 235, 220)">CAREERS</h5>
+             <ul class="nav flex-column">
+               <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Careers HomeLink opens in new tab</a></li>
+               <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">OpportunitiesLink opens in new tab</a></li>
+               <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Apply</a></li>
+             </ul>
+           </div>
+        
+           <div class="col-6 col-md-3 mb-3">
+             <h5 style="color: rgb(245, 235, 220)">BK CARES</h5>
+             <ul class="nav flex-column">
+               <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Nutrition Explorer</a></li>
+               <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Download Allergens</a></li>
+               <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Allergens View in Browser</a></li>
+               <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Privacy Policy</a></li>
+               <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Sustainability</a></li>
+               <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Burger King Foundation</a></li>
+               <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Diversity</a></li>
+             </ul>
+           </div>        
+         </div>
+               
+         <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+        
+          <div class="container-fluid">
+           <h3 style="color: rgb(245, 235, 220);">BURGER KING</h3>
+           <p style="color: rgb(245, 235, 220);" id="pol">Policies | Terms of Service | Accessibility | Contact Us</p>  
+           <small class="text-muted">TM & Copyright 2021 Burger King Corporation. All Rights Reserved.</small>
+          </div>
+           <ul class="list-unstyled d-flex">
+             <li class="ms-3"><i class="fa-brands fa-instagram fs-3 text-white" id="hov"></i></li>
+             <li class="ms-3"><i class="fa-brands fa-facebook fs-3 text-white" id="hov"></i></i></li>
+             <li class="ms-3"><i class="fa-brands fa-twitter fs-3 text-white" id="hov"></i></li>
+             <li class="ms-3"><i class="fa-brands fa-youtube fs-3 text-white"id="hov"></i></li>
+           </ul>
+         </div>
+        </footer>
+        </div>
+        
+  
+    <!-- enf of footer shirone fortuno-->
+    <!-- hindi naka align pa sa burgerking ung policy at copyright-->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

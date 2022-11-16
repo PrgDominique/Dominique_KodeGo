@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Magazine</title>
+</head>
+<style>
+    body{
+        margin:0;
+        padding:0;
+    }
+    .header{
+        background-color:lightgreen;
+        height:100px;
+        width:70vw;
+        text-align: center;
+    }
+    h1{
+        padding-top:30px;
+    }
+    .navbar{
+        background-color:black;
+        color:white;
+        width:70vw;
+    }
+    .navbar, ul{
+        display:flex;
+        gap:50px;
+    }
+    ul li{
+
+        margin-left:-20px;
+        list-style: none;
+    }
+    .section{
+        display:flex;
+        
+        width:70vw;
+        margin-left:-2px;
+        height:200px;
+    }
+    .section1{
+        border:1px solid green;
+        flex-grow:1;
+    }
+    h2{
+        padding:10px;
+    }
+    .p1{
+        padding:5px;
+    }
+    @media only screen and (max-width: 1280px){
+        .header{
+            background-color: orange;
+            height:100px;
+        width:70vw;
+        text-align: center;
+        }
+    }
+    @media only screen and (max-width: 960px){
+        .header{
+            background-color: blue;
+            height:100px;
+        width:70vw;
+        text-align: center;
+        }
+        .Sports{
+            display: none;
+        }
+    }
+    @media only screen and (max-width: 650px){
+        .header{
+            background-color: red;
+            height:100px;
+        width:70vw;
+        text-align: center;
+        }
+        .Business{
+            display: none;
+        }
+        .Sports{
+            display: none;
+        }
+    }
+</style>
+<body>
+    <header class="header">
+        <h1>Online Magazine</h1>
+    </header>
+    <nav class="navbar">
+        <ul>
+            <li>Home</li>
+            <li>About Us</li>
+            <li>Contact Us</li>
+        </ul>
+    </nav>
+    <div class="section">
+        <div class="section1">
+            <div class="lifestyle">
+            <h2>Lifestyle</h2>
+            <p class="p1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, eaque dolor modi adipisicing elit.</p>
+        </div>
+    </div>
+        <div class="section1">
+            <div  class="Business">
+            <h2>Business</h2>
+            <p class="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod consequatur eligendi adipisicing elit.</p>
+        </div>
+        </div>
+        <div class="section1">
+            <div  class="Sports">
+            <h2>Sports</h2>
+            <p class="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi neque reprehenderit adipisicing elit.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,80 @@
+/*
+  1. Use a more-intuitive box-sizing model.
+*/
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  /*
+    2. Remove default margin
+  */
+  * {
+    margin: 0;
+  }
+  /*
+    3. Allow percentage-based heights in the application
+  */
+  html, body {
+    height: 100%;
+  }
+  /*
+    Typographic tweaks!
+    4. Add accessible line-height
+    5. Improve text rendering
+  */
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    margin-top: 100px;
+    height: 130vh;
+    background-color: #EDE7DC;
+  }
+ 
+
+  .name {
+    padding-left: 30vh;
+    font-size: 50px;
+  }
+  .address {
+    padding-left: 30vh;
+    font-size: 20px;
+  }
+  .email{
+    padding-left: 35vh;
+    font-size: 20px;
+  }
+  .phone{
+    padding-left: 32vh;
+  }
+  .linkedin{
+    padding-left: 35vh;
+    font-size: 20px;
+  }
+  .github{
+    padding-left: 20vh;
+  }
+  .summary{
+    padding-left: 30vh;
+  }
+  .summary1{
+    padding-left: 30vh;
+    font-size: 18px;
+    padding-right: 20vh;
+  }
+  .experience{
+    padding-left: 30vh;
+  }
+  .experience1{
+    padding-left: 35vh;
+  }
+  .experience2{
+    padding-left: 35vh;
+    font-size: 25px;
+  }
+  .experience3{
+    padding-left: 35vh;
+    font-size: 20px;
+  }
+  .skill{
+    padding-left: 33vh;
+    font-size: 20px;
+  }

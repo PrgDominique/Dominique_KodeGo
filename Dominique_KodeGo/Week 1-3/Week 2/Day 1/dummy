@@ -1,0 +1,12 @@
+     <div class="col-6">
+                    <h3>Billing Address</h1>
+                <div class="input-group pt-5">
+                    <h5 class="form-label pe-5">First Name</h5>
+                    
+                    <h5 class="form-label ps-5">Last Name</h5>
+                </div>
+                    <input type="text" class="form-control d-inline w-25 me-4">
+                    <input type="text" class="form-control d-inline w-25 ">
+                </div>
+              
+            </div>
